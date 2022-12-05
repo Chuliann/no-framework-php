@@ -1,0 +1,21 @@
+{
+    "name": "no-framework/no-framework",
+    "description": "Probando php sin nada",
+    "keywords": [""],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Julian",
+            "email": "julianbertonb@email.com",
+            "role": "Creador / Desarrollador Principal"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ejemplo\\": "src/"
+        }
+    }
+}
